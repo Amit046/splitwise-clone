@@ -1,13 +1,26 @@
 # AI_USAGE.md
 
-## AI Tool Used
-**Claude (claude-sonnet-4-6)** by Anthropic, via claude.ai chat interface.
+## AI Tools Used
+**Primary**: Claude (claude-sonnet-4-6) by Anthropic, via claude.ai chat interface.
+**Secondary**: ChatGPT (GPT-4o) by OpenAI, via chat.openai.com.
+**Code Assistant**: GitHub Copilot by GitHub/Microsoft, via VS Code extension.
 
 ---
 
 ## How It Was Used
 
-Claude acted as a senior engineering collaborator. I provided the architecture context and requirements section by section. Claude generated production-style code, explained every major decision, and maintained AI_CONTEXT.md as a living document throughout the build.
+**Claude** acted as the primary senior engineering collaborator. I provided the architecture context and requirements section by section. Claude generated production-style code, explained every major decision, and maintained AI_CONTEXT.md as a living document throughout the build.
+
+**ChatGPT** was used as a secondary tool for:
+- Quickly cross-checking SQL query correctness (balance CTEs)
+- Generating initial boilerplate for Tailwind component styling
+- Sanity-checking the CSV anomaly detection rules list before implementation
+- Researching Splitwise product behavior and reverse-engineering its core workflows
+
+**GitHub Copilot** was used inline during coding for:
+- Autocompleting repetitive patterns (route handlers, model query functions)
+- Suggesting import statements and filling out Zod schema fields
+- Speeding up frontend JSX — form inputs, className strings, event handlers
 
 ---
 
