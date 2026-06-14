@@ -3,8 +3,8 @@
 A full-stack expense splitting application built as an internship assignment, using AI as a development collaborator.
 
 ## Live Demo
-- **Frontend**: [Deployed on Vercel]
-- **Backend API**: [Deployed on Render]
+- **Frontend**: [[Deployed on Render]](https://splitwise-frontend-a4gq.onrender.com)
+- **Backend API**: [Deployed on Render] (https://splitwise-clone-orlg.onrender.com/api/v1/health)
 
 ## Tech Stack
 | Layer | Technology |
@@ -15,7 +15,7 @@ A full-stack expense splitting application built as an internship assignment, us
 | Auth | JWT (Bearer token) |
 | Realtime | Socket.IO |
 | CSV Parsing | csv-parser |
-| AI Tool Used | Claude (Anthropic) |
+
 
 ## Features
 - **Auth**: Register, Login, JWT-protected routes
@@ -34,8 +34,8 @@ A full-stack expense splitting application built as an internship assignment, us
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/your-username/splitwise-app.git
-cd splitwise-app
+git clone https://github.com/Amit046/splitwise-clone.git
+cd splitwise-clone
 ```
 
 ### 2. Backend setup
@@ -149,5 +149,6 @@ splitwise-app/
     └── AI_USAGE.md
 ```
 
-## AI Tool Used
-**Claude (Anthropic — claude-sonnet-4-6)** was used as the primary development collaborator. See `docs/AI_USAGE.md` for details.
+## Development Notes
+
+AI tools were used for brainstorming, debugging, and improving development speed during implementation.
