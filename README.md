@@ -4,7 +4,7 @@ A full-stack expense splitting application built as an internship assignment, us
 
 ## Live Demo
 - **Frontend**: [[Deployed on Render]](https://splitwise-frontend-a4gq.onrender.com)
-- **Backend API**: [Deployed on Render] (https://splitwise-clone-orlg.onrender.com/api/v1/health)
+- **Backend API**: [[[Deployed on Render]](https://splitwise-frontend-a4gq.onrender.com)](https://splitwise-clone-orlg.onrender.com/api/v1/health)
 
 ## Tech Stack
 | Layer | Technology |
